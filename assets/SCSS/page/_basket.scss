@@ -1,0 +1,50 @@
+#proSec{
+    #product{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        .box{
+            margin: 1rem 0;
+            width: 250px;
+            position: relative;
+            #wish{
+                position: absolute;
+                top: 0;
+                right: 0;
+                cursor: pointer;
+                color: rgb(194, 74, 74);
+                margin: 0.5rem;
+                width: 2.5rem;
+                height: 2.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid black;
+                border-radius: 50%;
+                transition: 1s;
+                &:hover{
+                    background-color: #fff;
+                    color: red;
+                border: 1px solid red;
+
+                }
+            }
+            img{
+                width: 100%;
+            }
+            button{
+                color: #fff;
+            background-color: red;
+            transition: 1s;
+            border-radius: 10px;
+            padding: 8px;
+            border: 1px solid red;
+            &:hover{
+                background-color: #fff;
+                color: red;
+            }
+            }
+        }
+    }
+}

@@ -1,0 +1,499 @@
+#head {
+  position: relative;
+  background-color: black;
+}
+
+#addedForm {
+  width: 36%;
+}
+
+#proSec {
+  position: relative;
+}
+#proSec #product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#proSec #product .box {
+  margin: 1rem 0;
+  width: 300px !important;
+  position: relative;
+  box-shadow: 0 2px 20px 0.2px black;
+  padding: 10px;
+  border-radius: 10px;
+}
+#proSec #product .box #close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: rgb(194, 74, 74);
+  margin: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 1s;
+}
+#proSec #product .box #close:hover {
+  background-color: #fff;
+  color: red;
+  border: 1px solid red;
+}
+#proSec #product .box img {
+  width: 100%;
+  height: 200px;
+}
+#proSec #product .box .save {
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid green;
+}
+#proSec #product .box .save:hover {
+  background-color: #fff;
+  color: green;
+}
+#proSec #product .box .delete {
+  color: #fff;
+  background-color: red;
+  transition: 1s;
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid red;
+  margin: 1rem 0;
+}
+#proSec #product .box .delete:hover {
+  background-color: #fff;
+  color: red;
+}
+#proSec #detail {
+  position: absolute;
+  top: 5rem;
+  width: 50%;
+  padding: 25px;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  align-items: self-start;
+  gap: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 20px 0.2px black;
+}
+#proSec #detail .save {
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid green;
+}
+#proSec #detail .save:hover {
+  background-color: #fff;
+  color: green;
+}
+#proSec #detail #close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: rgb(194, 74, 74);
+  margin: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 1s;
+}
+#proSec #detail #close:hover {
+  background-color: #fff;
+  color: red;
+  border: 1px solid red;
+}
+
+#proSec #product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#proSec #product .box {
+  margin: 1rem 0;
+  width: 250px;
+  position: relative;
+}
+#proSec #product .box #wish {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: rgb(194, 74, 74);
+  margin: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 1s;
+}
+#proSec #product .box #wish:hover {
+  background-color: #fff;
+  color: red;
+  border: 1px solid red;
+}
+#proSec #product .box img {
+  width: 100%;
+}
+#proSec #product .box button {
+  color: #fff;
+  background-color: red;
+  transition: 1s;
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid red;
+}
+#proSec #product .box button:hover {
+  background-color: #fff;
+  color: red;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+}
+header .container .navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+header .container .navbar .navbar-brand span {
+  color: #ffc515;
+  font-size: 2rem;
+  font-weight: bold;
+}
+header .container .navbar ul .active a {
+  color: #ffc515 !important;
+}
+header .container .navbar ul li a {
+  color: #fff !important;
+  transition: 1s;
+}
+header .container .navbar ul li a:hover {
+  color: #ffc515 !important;
+}
+header .container .reser {
+  display: flex;
+  gap: 20px;
+}
+header .container .reser .contact {
+  display: flex;
+  gap: 10px;
+}
+header .container .reser .contact i {
+  color: #ffc515;
+}
+
+#food {
+  background: url("../../../assets/Image/slider-1.jpg");
+  width: 100%;
+  height: 40em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#food .container {
+  color: #fff;
+}
+#food .container h1 {
+  text-align: center;
+  font-size: 6rem;
+}
+#food .container h1 span {
+  color: #ffc515;
+  font-weight: bold;
+}
+#food .container p {
+  width: 80%;
+  text-align: end;
+}
+
+#welcome .container .content i {
+  font-size: 3rem;
+}
+#welcome .container .row .col-xl-4 {
+  text-align: center;
+}
+
+#testmonials {
+  background: url("../../../assets/Image/review-bg.jpg");
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+#testmonials .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20rem;
+}
+#testmonials .container i {
+  font-size: 3rem;
+}
+#testmonials .container p {
+  font-weight: bold;
+}
+#testmonials .container span {
+  color: #ffc515;
+}
+
+#services {
+  text-align: center;
+  margin: 1rem 0;
+}
+#services .container i {
+  font-size: 3rem;
+}
+#services .container .row .col-xl-3 {
+  margin: 1rem 0;
+}
+#services .container .row .col-xl-3 i {
+  font-size: 2rem;
+  color: #ffc515 !important;
+}
+
+#menu .container {
+  text-align: center;
+}
+#menu .container i {
+  font-size: 3rem;
+}
+#menu .container ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+#menu .container ul li {
+  cursor: pointer;
+}
+
+#menu {
+  background: url("../../../assets/Image/menu-bg.jpg");
+  width: 100%;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+  color: #fff;
+  padding: 25px;
+}
+#menu .container .row .col-xl-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#menu .container .row .col-xl-6 p {
+  margin: 0;
+  padding: auto;
+  margin: 0.5rem 0;
+}
+#menu .container .row .col-xl-6 span {
+  opacity: 0.5;
+}
+#menu .container button {
+  background-color: #ffc515;
+  padding: 10px;
+  border: 1px solid #ffc515;
+  transition: 1s;
+  color: black;
+  font-weight: 600;
+}
+#menu .container button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+footer {
+  padding: 1rem 0;
+  background: url("../../../assets/Image/footer-bg.jpg");
+}
+footer .contanier {
+  display: flex;
+  justify-content: center;
+}
+footer .contanier .content {
+  width: 75%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .contanier .content .container p {
+  color: gray;
+}
+footer .contanier .content i {
+  margin: 3rem 0;
+  font-size: 3rem;
+}
+footer .contanier .content form {
+  background-color: #fff;
+  width: 75%;
+  padding: 20px;
+  border-radius: 10px;
+}
+footer .contanier .content form input {
+  border: none;
+  padding: 10px;
+  width: 50%;
+  background-color: #f8f8f8;
+}
+footer .contanier .content form textarea {
+  border: none;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+footer .contanier .content form button {
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #ffc515;
+  background-color: #ffc515;
+  transition: 1s;
+  margin: 1rem 0;
+}
+footer .contanier .content form button:hover {
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+}
+
+#pro .container #filterContent {
+  width: 92%;
+  flex-wrap: wrap;
+}
+#pro .container #src {
+  height: 3rem;
+}
+#pro .container .accordion {
+  width: 36%;
+  border: 1px solid #ffc515;
+  transition: 1s;
+}
+#pro .container .accordion label,
+#pro .container .accordion input {
+  cursor: pointer;
+}
+#pro .container .accordion .filterItem {
+  border: 1px solid #fff;
+  padding: 10px;
+  transition: 1s;
+}
+#pro .container .accordion .filterItem:hover {
+  border: 1px solid #ffc515;
+}
+#pro .container #product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+#pro .container #product .box {
+  margin: 1rem 0;
+  width: 250px;
+  position: relative;
+}
+#pro .container #product .box #wish {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: rgb(194, 74, 74);
+  margin: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 1s;
+}
+#pro .container #product .box #wish:hover {
+  background-color: #fff;
+  color: red;
+  border: 1px solid red;
+}
+#pro .container #product .box img {
+  width: 100%;
+  height: 200px;
+}
+#pro .container #product .box button {
+  color: #fff;
+  background-color: green;
+  transition: 1s;
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid green;
+}
+#pro .container #product .box button:hover {
+  background-color: #fff;
+  color: green;
+}
+#pro .container #loadbtn {
+  color: #fff;
+  background-color: black;
+  margin: 1rem;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 1s;
+}
+#pro .container #loadbtn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  #food .container h1 {
+    font-size: 2rem;
+  }
+  #pro .container .accordion {
+    width: 100%;
+  }
+  #pro .container #src {
+    margin: 1rem 0;
+  }
+  footer .contanier .content form {
+    width: 100%;
+  }
+  footer .contanier .content form input {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  #navbarNav {
+    padding: 5px;
+    background-color: black;
+    height: 20rem;
+  }
+  header .container .reser {
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+}
